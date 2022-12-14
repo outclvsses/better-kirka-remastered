@@ -1157,7 +1157,7 @@ setInterval(() => {
             blueWireframe--;
         }
     } else {
-        let color = hexToRgb("#4dff00");
+        let color = hexToRgb("#ff0004");
         redWireframe = color.r;
         greenWireframe = color.g;
         blueWireframe = color.b;
