@@ -1401,7 +1401,7 @@ function animate() {
 
             let color = hexToRgb("#0000ff");
             if (!localPlayerClass.team || localPlayerClass.team !== player["50"].team) {
-                color = hexToRgb("#4dff00");
+                color = hexToRgb("#ff0004");
                 if (weaponHighlighter) color = hexToRgb(weaponColors[playerStructs[player["50"].sessionId].wName]);
                 if (playerStructs[player["50"].sessionId].spawnProtected) color = hexToRgb('#ff2222');
             }
